@@ -3,7 +3,7 @@
 	 licencja: MIT
 	  --github link--
  */
-* {
+ * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -1039,4 +1039,29 @@ footer::before {
 }
 .letter-spacing-5em {
   letter-spacing: 5em;
+}
+/* animation effects property */
+.anime-bg-stop {
+  animation: animeBgStop 5s infinite alternate;
+}
+@keyframes animeBgStop {
+  0% {
+    background: lightgreen;
+  }
+  100% {
+    background: darkgreen;
+  }
+}
+.anime-bg-run {
+  background-image: linear-gradient( 45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000 );
+  background-size: 400%;
+  animation: animeBgRun 5s infinite alternate;
+}
+@keyframes animeBgRun {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 100% 0px;
+  }
 }
