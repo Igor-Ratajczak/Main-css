@@ -1,10 +1,10 @@
 # Main-css
-Main css jest to biblioteka css, która pomaga twórzyć strony internetowe. 
 
-## W jaki sposób działa?
+## Main css is a CSS library that helps create web pages.
+## How does it work?
 
-- Wystarczy znać własność oraz określić jej wartość np. kiedy chcemy aby element miał **obramowanie czerwone, kropkowane oraz miało ono 20px** to wpisujemy 
-  w class **border-red border-20 border-dotted**.
-- Nie ma oczywiście wszystkich kolorów oraz wielkości (na razie), ale kilkanaście ich jest (dokładny opis znaduje się tutaj).
-- Niektóre właściwości są opisane skrótami np. zamiast **.position-relative** jest **.relative** tak samo jest z display zamiast **.display-grid** jest **.grid**
+You only need to know the CSS property and specify its value. For example, if you want an element to have a **red**, **dotted** **border** with a width of **20px**, you can use the class **"border-red border-20 border-dotted"**.
+Not all colors and sizes are available yet, but there are several of them (detailed description can be found here).
+Some properties are described using shortcuts. For example, instead of using **".position-relative"**, you can use **".relative"**. The same goes for the **"display"** property, where **".display-grid"** can be written as **".grid"**.
+
   
