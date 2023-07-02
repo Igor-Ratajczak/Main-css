@@ -14,8 +14,8 @@ To make it even more convenient, Main-css utilizes shorthand class names for cer
 
 To start using Main-css in your project, follow these simple steps:
   - Download the Main-css library file from [here](https://raw.githubusercontent.com/Igor-Ratajczak/Main-css/main/main.css?token=GHSAT0AAAAAACEQEYQGAEXS74AY7LYIUL5EZFBSWYA).
-  - Include the downloaded main.css file in your project's HTML file by linking it using the <link> tag.
-  - Start using Main-css classes in your HTML elements to easily apply styles and enhance the visual presentation of your web page.
+  - Include the downloaded main.css file in your project's HTML file.
+  - And start using Main-css!
 
 ## Example Usage
 ```html
