@@ -29,13 +29,10 @@ The above example applies a red, dotted border with a width of 20px to the div e
 For more detailed information on available classes and their usage, please refer to the documentation.
 ## Contributing
 
-Contributions to Main-css are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to submit them through the issue tracker. We appreciate your feedback and involvement in improving the library.
+Contributions to Main-css are welcome! If you have any suggestions, bug reports, or feature requests, please feel free to submit them through the [issue tracker](https://github.com/Igor-Ratajczak/Main-css/issues). We appreciate your feedback and involvement in improving the library.
 ## License
 
-Main-css is licensed under the MIT License. You are free to use, modify, and distribute the library according to the terms of the license.
-## Acknowledgements
-
-We would like to express our gratitude to the open-source community for their invaluable contributions and inspirations.
+Main-css is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute the library according to the terms of the license.
 ## Get in Touch
 
 If you have any questions or need further assistance, you can reach us at [betelgeza6](mailto:betelgeza6@gmail.com). We would be happy to help you!
