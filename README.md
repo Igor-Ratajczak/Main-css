@@ -33,8 +33,3 @@ Contributions to Main-css are welcome! If you have any suggestions, bug reports,
 ## License
 
 Main-css is licensed under the [MIT License](./LICENSE). You are free to use, modify, and distribute the library according to the terms of the license.
-## Get in Touch
-
-If you have any questions or need further assistance, you can reach us at [betelgeza6](mailto:betelgeza6@gmail.com). We would be happy to help you!
-
-Let me know if there's anything else you'd like to add or if you have any specific sections in mind that you'd like assistance with.
