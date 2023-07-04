@@ -9,7 +9,7 @@
   padding: 0px;
 }
 footer::before {
-  content: "Ta strona używa biblioteki Main css || This site use Main css library";
+  content: "Ta strona używa biblioteki Main CSS || This site use Main CSS library";
   width: 100%;
   display: grid;
   place-content: center;
