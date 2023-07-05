@@ -3,10 +3,13 @@
 	 licencja: MIT
 	 https://github.com/Igor-Ratajczak/Main-css
  */
- * {
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+footer {
+  height: max-content;
 }
 footer::before {
   content: "Ta strona używa biblioteki Main CSS || This site use Main CSS library";
@@ -117,16 +120,16 @@ footer::before {
   display: table-row-group;
 }
 /* flex direction property */
-.flex-direction-cl {
+.flex--cl {
   flex-direction: column;
 }
-.flex-direction-cl-reverse {
+.flex--cl-reverse {
   flex-direction: column-reverse;
 }
-.flex-direction-row {
+.flex--row {
   flex-direction: row;
 }
-.flex-direction-row-reverse {
+.flex--row-reverse {
   flex-direction: row-reverse;
 }
 /* cursor property */
