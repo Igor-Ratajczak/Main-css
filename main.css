@@ -8,9 +8,6 @@
   margin: 0px;
   padding: 0px;
 }
-footer {
-  height: max-content;
-}
 footer::before {
   content: "Ta strona używa biblioteki Main CSS || This site use Main CSS library";
   width: 100%;
