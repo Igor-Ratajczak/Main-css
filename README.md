@@ -23,7 +23,8 @@ To start using Main-css in your project, follow these simple steps:
 ```
 The above example applies a red, dotted border with a width of 20px to the div element.
 
-![how-it-work](https://github.com/Igor-Ratajczak/Main-css/assets/112535829/7f15f541-a7e1-4524-8334-0a58e1882f7a)
+![how-it-work](https://github.com/Igor-Ratajczak/Main-css/assets/112535829/eef35007-30c0-48d4-84a1-5f6c5b472c7f)
+
 ## Documentation
 
 For more detailed information on available classes and their usage, please refer to the documentation.
