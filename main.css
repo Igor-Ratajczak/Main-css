@@ -1254,9 +1254,11 @@ footer::before {
 }
 /* backface visibility property */
 .backface-visibility-hidden {
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .backface-visibility-visible {
+  -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
 /* box sizing property */
