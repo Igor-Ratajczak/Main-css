@@ -20,10 +20,16 @@ To start using Main-css in your project, follow these simple steps:
 - Include the downloaded main.css file in your project's HTML file.
 - And start using Main-css!
 
+<<<<<<< HEAD
 or
 
 - Add this tag to your project's HTML file.
 
+=======
+or 
+
+- Add this tag to your project's HTML file.
+>>>>>>> 97bd4c2e7997ee757f94aec36f2c430889877e83
 ```html
 <link rel="stylesheet" href="https://igor-ratajczak.github.io/Main-css/main.css" />
 ```
