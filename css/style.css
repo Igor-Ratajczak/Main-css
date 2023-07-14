@@ -19,6 +19,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 1;
 }
 #nav-mobile > svg {
   cursor: pointer;
@@ -28,6 +29,7 @@ nav {
   background: black !important;
   height: 100vh;
   align-content: baseline;
+  z-index: 2;
 }
 main {
   grid-template-columns: 5% 90% 5%;
