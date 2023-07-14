@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Main css is a css library that helps you create web pages." />
+    <meta
+      name="keywords"
+      content="Main CSS library, CSS framework, CSS utility classes, Web development, Front-end development, CSS styling, Responsive design, CSS grid, CSS properties, CSS classes, Code organization, Code efficiency, Code reusability,"
+    />
+    <meta name="author" content="Igor Ratajczak" />
+    <title>Library Main CSS Help</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
+      integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <div id="root" class="grid height-100per">
+      <div id="nav-mobile" class="grid-cl-1-2 grid-row-1-2">
+        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
+          <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </div>
+      <nav class="fixed height-100per">
+        <div class="close none" data-close="nav">X</div>
+        <div id="logo"><div id="img"></div></div>
+        <div id="menu" class="grid-row-gap-20px">
+          <a href="./index.html" id="home" class="option">
+            <div class="text" class="option">Home</div>
+          </a>
+          <a href="./doc.html" id="documentation" class="option">
+            <div class="text" class="option">Documentation</div>
+          </a>
+          <a href="./about.html" id="about" class="option">
+            <div class="text">About</div>
+          </a>
+          <a href="./help.html" id="help" class="option">
+            <div class="text">Help create it</div>
+          </a>
+        </div>
+      </nav>
+      <main class="grid grid-cl-2-3 grid-row-1-3">
+        <div id="markdown-text" class="grid grid-cl-2-3 grid-row-2-3"></div>
+      </main>
+      <footer class="grid-cl-2-3 grid-row-3-4">
+        <p id="copyright"></p>
+      </footer>
+      <script>
+        fetch("./help.md")
+          .then((response) => response.text())
+          .then((markdown) => {
+            // Convert Markdown to HTML
+            const converter = new showdown.Converter();
+            const html = converter.makeHtml(markdown);
+            $("#markdown-text").html(html);
+          })
+          .catch((error) => {
+            console.error("Error fetching Markdown file:", error);
+          });
+      </script>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
