@@ -3,7 +3,7 @@
 ## How use this library?
 
 - You must add to class **property**-**value**, but if property is e.g. "text-decoration" that will be class **text-d-_value_**.
-- In class
+- In a class that has a negative value, e.g. "word-spacing: -5px;" the class looks like ".word-s--5px".
 
 For example:
 
@@ -86,6 +86,7 @@ For example:
     </li>    
     <li>cl-gap-value</li>
     <li>row-gap-value</li>
+    <li>font-style-value</li>
 </ul>
 ### This code create div with display flex:
 
