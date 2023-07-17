@@ -3,6 +3,7 @@
 ## How use this library?
 
 - You must add to class **property**-**value**, but if property is e.g. "text-decoration" that will be class **text-d-_value_**.
+- In class
 
 For example:
 
@@ -65,18 +66,26 @@ For example:
     </li>
     <li>
         <ul>align
-            <li>content</li>
+            <li>cnt</li>
             <li>items</li>
             <li>self</li>
         </ul>
     </li>
     <li>
         <ul>justify
-            <li>content</li>
+            <li>cnt</li>
             <li>items</li>
             <li>self</li>
         </ul>
-    </li>
+    </li>    
+    <li>
+        <ul>text-overflow
+            <li>clip</li>
+            <li>ellipsis</li>
+        </ul>
+    </li>    
+    <li>cl-gap-value</li>
+    <li>row-gap-value</li>
 </ul>
 ### This code create div with display flex:
 
