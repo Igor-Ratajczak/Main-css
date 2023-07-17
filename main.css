@@ -505,13 +505,13 @@ footer::before {
   font-weight: 900;
 }
 /* font style property */
-.font-s-italic {
+.font-style-italic {
   font-style: italic;
 }
-.font-s-normal {
+.font-style-normal {
   font-style: normal;
 }
-.font-s-oblique {
+.font-style-oblique {
   font-style: oblique;
 }
 /* font stretch property */
