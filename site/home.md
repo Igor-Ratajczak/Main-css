@@ -19,7 +19,7 @@
 ```
 
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon" />
+    <img src="site/copy.svg" alt="copy icon" />
 </div>
 </div>
 - You can also add this html link tag to your page. This is a link to 1.0 Main CSS version.
@@ -32,6 +32,6 @@
 ```
 
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon" />
+    <img src="site/copy.svg" alt="copy icon" />
 </div>
 </div>
