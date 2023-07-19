@@ -117,7 +117,7 @@ footer {
   margin: 2em;
 }
 #img {
-  background-image: url("../logo.png");
+  background-image: url("../../logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 10em;

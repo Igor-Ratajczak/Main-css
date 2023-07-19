@@ -58,7 +58,7 @@
         <p id="copyright"></p>
       </footer>
       <script>
-        fetch("./home.md")
+        fetch("site/home.md")
           .then((response) => response.text())
           .then((markdown) => {
             // Convert Markdown to HTML
@@ -71,6 +71,6 @@
           });
       </script>
     </div>
-    <script src="script.js"></script>
+    <script src="site/script.js"></script>
   </body>
 </html>
