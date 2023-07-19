@@ -9,12 +9,12 @@
       content="Main CSS library, CSS framework, CSS utility classes, Web development, Front-end development, CSS styling, Responsive design, CSS grid, CSS properties, CSS classes, Code organization, Code efficiency, Code reusability,"
     />
     <meta name="author" content="Igor Ratajczak" />
-    <title>Library Main CSS Documentation</title>
+    <title>Library Main CSS About</title>
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="stylesheet" href="./main.css" />
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../main.min.css" />
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
@@ -22,14 +22,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <style>
-      h1 {
-        margin: 0;
-      }
-    </style>
   </head>
   <body class="overflow-x-hidden">
-    <div id="root" class="grid">
+    <div id="root" class="grid height-100per">
       <div id="nav-mobile" class="grid-cl-1-2 grid-row-1-2">
         <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 0 448 512">
           <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
@@ -42,7 +37,7 @@
         <div class="close none" data-close="nav">X</div>
         <div id="logo"><div id="img"></div></div>
         <div id="menu" class="grid-row-gap-20px">
-          <a href="./index.html" id="home" class="option">
+          <a href="../index.html" id="home" class="option">
             <div class="text" class="option">Home</div>
           </a>
           <a href="./doc.html" id="documentation" class="option">
@@ -63,7 +58,7 @@
         <p id="copyright"></p>
       </footer>
       <script>
-        fetch("./documentation.md")
+        fetch("./about.md")
           .then((response) => response.text())
           .then((markdown) => {
             // Convert Markdown to HTML

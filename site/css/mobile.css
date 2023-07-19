@@ -1,0 +1,17 @@
+@media screen and (max-width: 950px) {
+  #root {
+    grid-template-columns: 10% 90%;
+  }
+  nav {
+    display: none;
+  }
+  main,
+  footer {
+    grid-column: 1 / 3 !important;
+  }
+}
+@media screen and (min-width: 950px) {
+  .close {
+    display: none !important;
+  }
+}
