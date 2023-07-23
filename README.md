@@ -47,7 +47,7 @@ The above example applies a red, dotted border with a width of 20px to the div e
 
 ## Documentation
 
-For more detailed information on available classes and their usage, please refer to the [documentation](https://igor-ratajczak.github.io/Main-css/doc.html).
+For more detailed information on available classes and their usage, please refer to the [documentation](https://igor-ratajczak.github.io/Main-css/site/doc.html).
 
 ## Contributing
 
