@@ -133,6 +133,9 @@ footer:before {
 .cursor-all-scroll {
   cursor: all-scroll;
 }
+.cursor-auto {
+  cursor: auto;
+}
 .cursor-cell {
   cursor: cell;
 }
