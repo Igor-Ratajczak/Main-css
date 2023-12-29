@@ -1,5 +1,3 @@
-# Main CSS Library Documentation
-
 ## How use this library?
 
 - You must add to class **property**-**value**, but if property is e.g. "text-decoration" that will be class **text-d-_value_**.

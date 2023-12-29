@@ -1,5 +1,3 @@
-# Main CSS Library About
-
 ## What is a _Main CSS_?
 
 Main-css is a lightweight CSS library designed to streamline the process of creating web pages. By utilizing

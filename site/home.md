@@ -1,5 +1,3 @@
-# Main CSS Library
-
 ## How to add _Main CSS_ to the page?
 
 - You can download this library and add to your page
