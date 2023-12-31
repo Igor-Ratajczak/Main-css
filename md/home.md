@@ -2,7 +2,7 @@
 
 - You can download this library and add to your page
 <div class="button">
-    <a href="./main.css" download="main.css" class="text-d-none">
+    <a href="/css/main.css" download="main.css" class="text-d-none">
         <button class="button-download">
             <b>Download library</b>
         </button>
@@ -17,7 +17,7 @@
 ```
 
 <div class="copy grid-cl-3-4">
-    <img src="site/copy.svg" alt="copy icon" />
+    <img src="/img/copy.svg" alt="copy icon"  width="20" height="20"/>
 </div>
 </div>
 - You can also add this html link tag to your page. This is a link to 1.0 Main CSS version.
@@ -30,6 +30,6 @@
 ```
 
 <div class="copy grid-cl-3-4">
-    <img src="site/copy.svg" alt="copy icon" />
+    <img src="/img/copy.svg" alt="copy icon"  width="20" height="20"/>
 </div>
 </div>

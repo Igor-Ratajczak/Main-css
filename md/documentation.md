@@ -10,7 +10,7 @@ For example:
 <div class="text-d-underline text-d-red text-d-2px">Example text.</div>
 ```
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon">
+    <img src="/img/copy.svg" alt="copy icon" width="20" height="20">
 </div>
 </div>
 ### This code creates text with a 5 pixel red underline:
@@ -99,7 +99,7 @@ For example:
 </div>
 ```
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon">
+    <img src="/img/copy.svg" alt="copy icon" width="20" height="20">
 </div>
 </div>
 
@@ -120,7 +120,7 @@ For example:
 </div>
 ```
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon">
+    <img src="/img/copy.svg" alt="copy icon" width="20" height="20">
 </div>
 </div>
 
@@ -139,7 +139,7 @@ For example:
 </div>
 ```
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon">
+    <img src="/img/copy.svg" alt="copy icon" width="20" height="20">
 </div>
 </div>
 
@@ -160,7 +160,7 @@ For example:
 </div>
 ```
 <div class="copy grid-cl-3-4">
-    <img src="./copy.svg" alt="copy icon">
+    <img src="/img/copy.svg" alt="copy icon" width="20" height="20">
 </div>
 </div>
 

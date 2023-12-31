@@ -116,14 +116,6 @@ footer {
   place-items: center;
   margin: 2em;
 }
-#img {
-  background-image: url("../../logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 10em;
-  height: 10em;
-  padding: 2em;
-}
 #menu {
   display: grid;
   justify-items: center;

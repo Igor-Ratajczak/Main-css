@@ -10,11 +10,11 @@
     />
     <meta name="author" content="Igor Ratajczak" />
     <title>Library Main CSS About</title>
-    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="stylesheet" href="../main.min.css" />
-    <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
@@ -35,18 +35,18 @@
       </div>
       <nav class="fixed height-100per">
         <div class="close none" data-close="nav">X</div>
-        <div id="logo"><div id="img"></div></div>
+        <div id="logo"><img src="logo.png" width="208" height="134" /></div>
         <div id="menu" class="grid-row-gap-20px">
-          <a href="../index.html" id="home" class="option">
+          <a href="index.html" id="home" class="option">
             <div class="text" class="option">Home</div>
           </a>
-          <a href="./doc.html" id="documentation" class="option">
+          <a href="doc.html" id="documentation" class="option">
             <div class="text" class="option">Documentation</div>
           </a>
-          <a href="./about.html" id="about" class="option">
+          <a href="about.html" id="about" class="option">
             <div class="text">About</div>
           </a>
-          <a href="./help.html" id="help" class="option">
+          <a href="help.html" id="help" class="option">
             <div class="text">Help create it</div>
           </a>
         </div>
@@ -59,7 +59,7 @@
         <p id="copyright"></p>
       </footer>
       <script>
-        fetch("./about.md")
+        fetch("md/about.md")
           .then((response) => response.text())
           .then((markdown) => {
             // Convert Markdown to HTML
