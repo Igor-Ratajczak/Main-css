@@ -13,7 +13,7 @@
 <div class="html-code">
 
 ```html
-<link rel="stylesheet" href="https://igor-ratajczak.github.io/Main-css/main.min.css" />
+<link rel="stylesheet" href="/css/main.min.css" />
 ```
 
 <div class="copy grid-cl-3-4">
@@ -26,7 +26,7 @@
 <div class="html-code">
 
 ```html
-<link rel="stylesheet" href="https://igor-ratajczak.github.io/Main-css/version/1.0/main.min.css" />
+<link rel="stylesheet" href="/version/1.0/main.min.css" />
 ```
 
 <div class="copy grid-cl-3-4">
