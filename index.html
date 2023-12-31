@@ -9,20 +9,14 @@
       content="Main CSS library, CSS framework, CSS utility classes, Web development, Front-end development, CSS styling, Responsive design, CSS grid, CSS properties, CSS classes, Code organization, Code efficiency, Code reusability,"
     />
     <meta name="author" content="Igor Ratajczak" />
+    <meta name="theme-color" content="#2f4f4f" />
     <title>Library Main CSS</title>
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" href="css/mobile.css" defer />
+    <link rel="stylesheet" href="css/main.min.css" defer />
     <link rel="apple-touch-icon" href="favicon.ico" type="image/ico" />
     <link rel="icon" href="favicon.ico" type="image/ico" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
-      integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
   </head>
   <body class="overflow-x-hidden">
     <div id="root" class="grid">
@@ -36,7 +30,7 @@
       </div>
       <nav class="fixed height-100per">
         <div class="close none" data-close="nav">X</div>
-        <div id="logo"><img src="img/logo-192x124.png" width="192" height="124" /></div>
+        <div id="logo"><img src="img/icon-192x192.png" alt="logo Main CSS" width="192" height="192" /></div>
         <div id="menu" class="grid-row-gap-20px">
           <a href="index.html" id="home" class="option">
             <div class="text" class="option">Home</div>
@@ -59,6 +53,13 @@
       <footer class="grid-cl-2-3 grid-row-3-4">
         <p id="copyright"></p>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"
+        integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
       <script>
         fetch("md/home.md")
           .then((response) => response.text())
