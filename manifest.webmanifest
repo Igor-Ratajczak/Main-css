@@ -4,44 +4,44 @@
   "description": "Main css is a css library that helps you create web pages.",
   "icons": [
     {
-      "src": "img/logo-16x16.png",
-      "sizes": "16x16",
+      "src": "img/logo-16x10.png",
+      "sizes": "16x10",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/logo-24x24.png",
-      "sizes": "24x24",
+      "src": "img/logo-24x15.png",
+      "sizes": "24x15",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/logo-48x48.png",
-      "sizes": "48x48",
+      "src": "img/logo-48x31.png",
+      "sizes": "48x31",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/logo-192x192.png",
-      "sizes": "192x192",
+      "src": "img/logo-192x124.png",
+      "sizes": "192x124",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/logo-256x256.png",
-      "sizes": "256x256",
+      "src": "img/logo-256x165.png",
+      "sizes": "256x165",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "img/logo-384x384.png",
-      "sizes": "384x384",
+      "src": "img/logo-384x247.png",
+      "sizes": "384x247",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "img/logo-512x512.png",
-      "sizes": "512x512",
+      "src": "img/logo-512x330.png",
+      "sizes": "512x330",
       "type": "image/png",
       "purpose": "maskable"
     }
